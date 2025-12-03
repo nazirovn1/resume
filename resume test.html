@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuriddin Nazirov - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 40px;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 5px;
+            font-weight: 300;
+            letter-spacing: 3px;
+        }
+        
+        .header h1 .first-letters {
+            color: #ff6b6b;
+            font-weight: 600;
+        }
+        
+        .header .tagline {
+            font-size: 1.1em;
+            opacity: 0.95;
+            margin-bottom: 25px;
+            line-height: 1.5;
+            max-width: 800px;
+        }
+        
+        .contact-info {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            font-size: 0.95em;
+        }
+        
+        .contact-info span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .experience-item, .education-item {
+            margin-bottom: 30px;
+        }
+        
+        .experience-item h3 {
+            color: #333;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        
+        .experience-item .company {
+            color: #764ba2;
+            font-weight: 600;
+            margin-bottom: 3px;
+            font-size: 1.05em;
+        }
+        
+        .experience-item .location-date {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 12px;
+        }
+        
+        .experience-item ul {
+            margin-left: 20px;
+            color: #555;
+        }
+        
+        .experience-item li {
+            margin-bottom: 8px;
+        }
+        
+        .skills-group {
+            margin-bottom: 20px;
+        }
+        
+        .skills-group h3 {
+            color: #764ba2;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        
+        .skills-list {
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .cert-item, .edu-item {
+            margin-bottom: 15px;
+        }
+        
+        .cert-item h4, .edu-item h4 {
+            color: #333;
+            font-size: 1.05em;
+            margin-bottom: 3px;
+        }
+        
+        .cert-item p, .edu-item p {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .edu-item .school {
+            color: #764ba2;
+            font-weight: 600;
+        }
+        
+        .edu-item .details {
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+        }
+        
+        @media (max-width: 968px) {
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2.2em;
+            }
+            
+            .content {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><span class="first-letters">N</span>URIDDIN <span class="first-letters">N</span>AZIROV</h1>
+            <div class="tagline">
+                Honors Architecture graduate with artistic background and hands-on 
+                experience in the design and development process for various mediums. 
+                Enthusiastic to execution. Excited to tackle new challenges and contribute to 
+                innovative projects that expand my creative and technical talents.
+            </div>
+            <div class="contact-info">
+                <span>📧 nxomov01@gmail.com</span>
+                <span>📱 (347) 447-01-80</span>
+                <span>🔗 Nuriddin Nazirov</span>
+                <span>📍 Brooklyn, New York</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="two-column">
+                <div class="main-content">
+                    <div class="section">
+                        <h2>Work Experience</h2>
+                        
+                        <div class="experience-item">
+                            <h3>Tenguerian Architectural Models</h3>
+                            <div class="company">2D&3D CAD Technician</div>
+                            <div class="location-date">New York, NY | Spring 2024 - current</div>
+                            <ul>
+                                <li>3D Printing & Laser Cutting: Operated and maintained 3D printers and laser cutters, ensuring precise fabrication of architectural components.</li>
+                                <li>Model Assembly & Fabrication: Assembled and finished architectural models, working with diverse materials like miniscape, wood, and acrylic.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <h3>Robert A.M. Stern Architect</h3>
+                            <div class="company">Intern Architect</div>
+                            <div class="location-date">New York, NY | Summer 2023</div>
+                            <ul>
+                                <li>Developed detailed graphics and visual presentations for client submissions, enhancing the visual communication of design concepts.</li>
+                                <li>Assisted in the design and development process for various projects, collaborating with senior architects and partners to ensure alignment with firm standards.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <h3>A&D Engineering, PLLC</h3>
+                            <div class="company">Junior Designer</div>
+                            <div class="location-date">Brooklyn, NY | 2021 - 2022</div>
+                            <ul>
+                                <li>Supported MEP (Mechanical, Electrical, and Plumbing) engineers in developing 2D technical drawings for residential and commercial projects.</li>
+                                <li>Drafted sprinkler system layouts, electrical circuits, lighting plans, and ventilation designs using AutoCAD and Revit.</li>
+                                <li>Collaborated with senior engineers and project managers to revise red-lines and update project documentation.</li>
+                                <li>Prepared permit and construction documents in compliance with NYC building codes and standards.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <h3>New York City College of Technology</h3>
+                            <div class="company">College Lab Technician</div>
+                            <div class="location-date">Brooklyn, NY | 2022 - current</div>
+                            <ul>
+                                <li>Manage and operate complex technical machinery, including Laser Cutters and 3D printers, as well as CNC milling, to ensure precision and safety.</li>
+                                <li>Train students on the use of advanced machinery and software.</li>
+                                <li>Provide expert guidance in understanding complex softwares on digital fabrication techniques.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="experience-item">
+                            <h3>Freelance</h3>
+                            <div class="company">Painter</div>
+                            <div class="location-date"></div>
+                            <ul>
+                                <li>Delivered high-quality painting services interiors, including color consultants and cozy homes, enhancing overall aesthetic and market appeal.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sidebar">
+                    <div class="section">
+                        <h2>Skills</h2>
+                        
+                        <div class="skills-group">
+                            <h3>Graphics</h3>
+                            <div class="skills-list">
+                                Illustrator | InDesign | ArctoIS<br>
+                                Photoshop | Figma | E-scape<br>
+                                After Effects | Premiere Pro
+                            </div>
+                        </div>
+                        
+                        <div class="skills-group">
+                            <h3>BIM & 3D Modeling</h3>
+                            <div class="skills-list">
+                                Revit | AutoCAD | Rhinoceros<br>
+                                Blender
+                            </div>
+                        </div>
+                        
+                        <div class="skills-group">
+                            <h3>Others</h3>
+                            <div class="skills-list">
+                                3D Printing | Model making<br>
+                                3D Printer | Laser Cutter |<br>
+                                CNC Machine | Microsoft Office
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h2>Certifications</h2>
+                        
+                        <div class="cert-item">
+                            <h4>Autodesk Certified User</h4>
+                            <p>Revit 2025 for Architects<br>
+                            AutoCAD 2025 for Architects</p>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h2>Education</h2>
+                        
+                        <div class="edu-item">
+                            <h4>Bachelor of Architecture</h4>
+                            <div class="school">New York City College of Technology</div>
+                            <div class="details">
+                                Brooklyn, NY GPA: 3.9<br>
+                                <em>Aspirin Achievement Award<br>
+                                Best Thesis Design (NYCCI, 2024)<br>
+                                Alumni Achievement Award (NYCCI, 2024)<br>
+                                Achievement (NYCCI, 2024)<br>
+                                Department Of Architecture Technology Award)<br>
+                                Graduate of Honors (NYCCI, 2022)<br>
+                                Dean's List 2018-2024)</em>
+                            </div>
+                        </div>
+                        
+                        <div class="edu-item" style="margin-top: 20px;">
+                            <h4>Associate of Liberal Art</h4>
+                            <div class="school">Kingsborough Community College</div>
+                            <div class="details">
+                                Brooklyn, NY GPA: 3.3<br>
+                                2018 - 2020
+                            </div>
+                        </div>
+                        
+                        <div class="edu-item" style="margin-top: 20px;">
+                            <h4>Bachelor of Interior Designer</h4>
+                            <div class="school">Tashkent Architecture and Civil Engineering Institute</div>
+                            <div class="details">
+                                Tashkent, Uzbekistan<br>
+                                2012 - 2014
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
